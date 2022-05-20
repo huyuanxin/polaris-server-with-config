@@ -1,6 +1,7 @@
 FROM polarismesh/polaris-server:latest
 
-MAINTAINER huyuanxin huyuanxin1999@outlook.com
+LABEL MAINTAINER = huyuanxin
+LABEL EMAIL = huyuanxin1999@outlook.com
 
 COPY ./config/polaris-server.yaml /root/
 
